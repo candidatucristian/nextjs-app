@@ -1,10 +1,11 @@
 import Image from "next/image";
-
+import Link from "next/link";
+import ProductCard from "./users/components/ProductCard";
 export default function Home() {
   return (
     <main>
-      <h1>This is home</h1>
-      Go To: <a href="/users">To Users</a>
+      <ProductCard />
+      <Link href="/users"> /Users</Link>
     </main>
   );
 }
