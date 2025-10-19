@@ -10,7 +10,7 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-      <h1>Home, and branch Feature</h1>
+      <h1>Home, and branch MyBranch</h1>
       <Image alt="nextjslogo" src="./next.svg" width={180} height={100} />
       <IncrementBtn />
       <Form />
